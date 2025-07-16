@@ -39,3 +39,22 @@
 .read-the-docs {
   color: #888;
 }
+.notification-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.notification {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: left;
+  background-color: #f3f3f3;
+}
+.notification button {
+  margin-top: 0.5rem;
+  background-color: #ff4d4d;
+  color: white;
+}
